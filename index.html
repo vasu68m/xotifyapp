@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify-groove on the tunes ur heart like</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">spotify</li>
+            <li>Home</li>
+            <li>about</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList"><h1>When words fail, music speaks</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="abcd.png" alt="coverimage">
+                <span class="songName">abcdefu</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="0" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="sad.jpg" alt="coverimage">
+                <span class="songName">hymn for the weekend</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="1" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="sad.jpg" alt="coverimage">
+                <span class="songName">playdate</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="2" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="sad.jpg" alt="coverimage">
+                <span class="songName">where we started</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="3" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="sad.jpg" alt="coverimage">
+                <span class="songName">sadness & sorrow</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="4" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="infinity" alt="coverimage">
+                <span class="songName">infinity</span>
+                <span class="songlistplay"><span class="timestamp"> <i id="5" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+            </div>
+        </div>
+        
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range " id="myProgressBar" min="0" max="100" value="0">
+        
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>  
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="42px" alt="" id="gif"><span id="masterSongName"></span>
+        </div>
+
+    </div>
+    
+    <script src="https://kit.fontawesome.com/7771b10ae1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>   
+</body>
+</html>
+
